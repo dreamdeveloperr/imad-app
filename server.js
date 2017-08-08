@@ -5,6 +5,34 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var articles={
+    articleTwo:{ 
+        title:'Article-two Ajay Gopal',
+    heading:'article two',
+    date:'aug 5,2017',
+    content:`<p>This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article This is the content for my first article! This is the content for my first article! This is the content for my first article! 
+            </p>
+            <p>
+                This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! 
+            </p>
+            <p>
+                This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! 
+            </p>`},
+    articleThree:{ 
+        title:'Articlethree Ajay Gopal',
+    heading:'article three',
+    date:'aug 5,2017',
+    content:`<p>This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article This is the content for my first article! This is the content for my first article! This is the content for my first article! 
+            </p>
+            <p>
+                This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! 
+            </p>
+            <p>
+                This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! This is the content for my first article! 
+            </p>`}
+}
+
 var articleOne={
     title:'Article|one Ajay Gopal',
     heading:'article one',

@@ -9,7 +9,7 @@ function moveRight(){
     img.style.marginLeft=marginLeft+'px';
     
 }
-ajay.onclick=function(){
+img.onclick=function(){
     var interval=setInterval(moveRight,100);
     
 };

@@ -1,9 +1,15 @@
 console.log('Loaded!');
 var element= document.getElementById('maintext'
 );
-element.inertHTML='new value';
+element.innertHTML='new value';
 var img=document.getElementById('ajay');
+marginLeft=0;
+function moveRight(){
+    marginLeft=marginLeft+ 10;
+    image.style.marginLeft=marginLeft+'px';
+    
+}
 ajay.onclick=function(){
-    ajay.style.marginLeft='100px';
+    ajay.style.marginRight='100px';
     
 };

@@ -10,6 +10,6 @@ function moveRight(){
     
 }
 ajay.onclick=function(){
-    ajay.style.marginRight='100px';
+    var interval=setInterval(moveRight,100);
     
 };

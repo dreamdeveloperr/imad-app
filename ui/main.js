@@ -6,7 +6,7 @@ var img=document.getElementById('ajay');
 var marginLeft=0;
 function moveRight(){
     marginLeft=marginLeft+ 10;
-    ajay.style.marginLeft=marginLeft+'px';
+    img.style.marginLeft=marginLeft+'px';
     
 }
 ajay.onclick=function(){

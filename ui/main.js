@@ -3,10 +3,10 @@ var element= document.getElementById('maintext'
 );
 element.innertHTML='new value';
 var img=document.getElementById('ajay');
-var marginLeft;
+var marginLeft=0;
 function moveRight(){
     
-    img.style.marginLeft='100px';
+    img.style.marginLeft=marginLeft+'1';
     
 }
 img.onclick=function(){

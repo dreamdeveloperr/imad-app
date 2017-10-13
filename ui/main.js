@@ -5,8 +5,8 @@ element.innertHTML='new value';
 var img=document.getElementById('ajay');
 var marginLeft=0;
 function moveRight(){
-    marginLeft=marginLeft+ 1;
-    img.style.marginLeft=marginLeft+'px';
+    
+    img.style.marginLeft='1px';
     
 }
 img.onclick=function(){

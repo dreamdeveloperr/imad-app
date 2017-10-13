@@ -3,7 +3,7 @@ var element= document.getElementById('maintext'
 );
 element.innertHTML='new value';
 var img=document.getElementById('ajay');
-var marginLeft=0;
+var marginLeft;
 function moveRight(){
     
     img.style.marginLeft='1px';

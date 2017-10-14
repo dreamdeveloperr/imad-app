@@ -1,14 +1,9 @@
-console.log('Loaded!');
-var element= document.getElementById('maintext'
-);
-element.innertHTML='new value';
-var img=document.getElementById('ajay');
-var marginLeft=0;
-function moveRight(){
-    img.style.marginLeft=marginLeft+'1px';
-    
-}
-img.onclick=function(){
-    var interval=setInterval(moveRight,50);
-    
+var button=document.getElementById("counter");
+var counter=0;
+
+button.onclick=function(){
+    counter=counter+1;
+    var span=doccument.GetelementById("count");
+
+    span.innerHTMl=counter.toStrin();
 };
